@@ -7,92 +7,114 @@
     initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet"> 
     <title>Marie Alexandrine Yvernault</title>
 </head>
 <body>
     <header>
-        <img src="" alt="Logo">  <!--Logo-->
+        <!-- for centering logo if needed <div style="width: 401px;"></div>-->
+        <a href="#"><img src="img/logo.png" alt="Logo"></a>  <!--Logo-->
         <ul>
-            <li>Lignes</li>
-            <li>Bijoux</li>
-            <li>A propos</li>
-            <li>Experiences</li>
-            <li>Contact</li>
+            <li class="dropdown-menu"><a href="#" class="link">Lignes</a>
+                <div class="dropdown">
+                    <a href="#">Ligne pyrite</a>
+                    <a href="#">Ligne bleu</a>
+                    <a href="#">Ligne or</a>
+                    <a href="#">Ligne claire</a>
+                    <a href="#">Ligne verte</a>
+                    <a href="#">Ligne noire</a>
+                </div>
+            </li>
+            <li><a href="#" class="link">Bijoux</a></li>
+            <li><a href="#" class="link">Experimental</a></li>
+            <li><a href="#" class="link">A propos</a></li>
+            <li><a href="#" class="link">Contact</a></li>
         </ul>
     </header>
     <div class="intro">
-        <h1>MARIE-ALEXANDRINE YVERNAULT</h1>
+        <h1>MARIE-ALEXANDRINE <br> YVERNAULT</h1>
         <h2>bijoux uniques</h2>
     </div>
     <div class="main-img">
         <img src="./img/frontimg2.png" alt="Front image, hands with jewelry">
     </div>
-    <div class="lignes">
-        <div class="ligne">
-            <img src="./img/ligne-piryte.png" alt="Ligne pyrite">
-            <p>Pyrite</p>
-        </div>
-        <div class="ligne">
-            <img src="./img/ligne-bleu.png" alt="Ligne Bleu">
-            <p>Bleu</p>
-        </div>
-        <div class="ligne">
-            <img src="img/ligne or.png" alt="Ligne or">
-            <p>Or</p>
-        </div>
-        <div class="ligne">
-            <img src="img/ligne claire.png" alt="Ligne claire">
-            <p>Claire</p>
-        </div>
-        <div class="ligne">
-            <img src="img/ligne-verte.png" alt="Ligne verte">
-            <p>Verte</p>
-        </div>
-        <div class="ligne">
-            <img src="img/ligne-noir.png" alt="Ligne noir">
-            <p>Noir</p>
-        </div>
-    </div>
-    <div class="about-container">
-        <img src="img/about-pic.png" alt="Image of the creator">
-        <p>Quis voluptate laborum consequat cupidatat culpa amet sint. Quis id nisi reprehenderit ullamco. Id officia laboris aliqua aute velit ea ex in minim labore. Duis id anim minim esse. Ipsum adipisicing amet ea nisi mollit excepteur ea qui sunt ut.</p>
-    </div>
-    <div class="creation-container">
-        <div class='creation'>
-            <img src="img/gems.jpg" alt="Picture of precious gems">
-            <p>Occaecat enim dolore aliqua amet dolore ullamco commodo ipsum. Officia voluptate aliquip Lorem amet Lorem sint nostrud sunt.</p>
-        </div>
-        <div class='creation'>
-            <img src="img/build_1.jpg" alt="Building a jewel">
-            <p>Occaecat enim dolore aliqua amet dolore ullamco commodo ipsum. Officia voluptate aliquip Lorem amet Lorem sint nostrud sunt.</p>
+    <div class="lignes  ">
+        <h2 class="reveal">Lignes</h2>
+        <div class="ligne-container class reveal">
+            <div class="ligne">
+                <img src="./img/ligne-piryte.png" alt="Ligne pyrite">
+                <p>Pyrite</p>
+            </div>
+            <div class="ligne">
+                <img src="./img/ligne-bleu.png" alt="Ligne Bleu">
+                <p>Bleu</p>
+            </div>
+            <div class="ligne">
+                <img src="img/ligne or.png" alt="Ligne or">
+                <p>Or</p>
+            </div>
+            <div class="ligne">
+                <img src="img/ligne claire.png" alt="Ligne claire">
+                <p>Claire</p>
+            </div>
+            <div class="ligne">
+                <img src="img/ligne-verte.png" alt="Ligne verte">
+                <p>Verte</p>
+            </div>
+            <div class="ligne">
+                <img src="img/ligne-noir.png" alt="Ligne noir">
+                <p>Noir</p>
+            </div>
         </div>
     </div>
-    <button>Contact us !</button>
+    <div class="about reveal">
+        <h2 class="reveal">About</h2>
+        <div class="about-container reveal">
+            <img src="img/about-pic.png" alt="Image of the creator">
+            <p>Aliquip ad incididunt nisi Lorem consequat dolor consequat. Qui cillum commodo sunt incididunt quis commodo dolor. Occaecat pariatur irure nisi adipisicing irure ipsum nisi est laborum duis fugiat do sit. Adipisicing deserunt cupidatat deserunt est cupidatat aute culpa fugiat magna do elit in ex. Ut adipisicing ea excepteur dolor laboris. Culpa non exercitation velit ipsum exercitation adipisicing qui sit aliqua nisi Lorem eu. Nulla reprehenderit consectetur culpa ipsum reprehenderit sit.</p>
+        </div>
+    </div>
+    <div class="creations reveal">
+        <h2>Creation</h2>
+        <div class="creation-container">
+            <div class='creation'>
+                <img src="img/gems.jpg" alt="Picture of precious gems">
+                <p>Occaecat enim dolore aliqua amet dolore ullamco commodo ipsum. Officia voluptate aliquip Lorem amet Lorem sint nostrud sunt.</p>
+            </div>
+            <div class='creation'>
+                <img src="img/build_1.jpg" alt="Building a jewel">
+                <p>Occaecat enim dolore aliqua amet dolore ullamco commodo ipsum. Officia voluptate aliquip Lorem amet Lorem sint nostrud sunt.</p>
+            </div>
+        </div>
+    </div>
+    <button id="contact">Contact us !</button>
     <footer>
         <div class="footer-container">
-            <img src="" alt="Logo"> <!--Logo-->
+            <a href="#"><img src="img/logo.png" alt="Logo"></a> <!--Logo-->
             <ul>
                 <li>Menu</li>
-                <li>Lignes</li>
-                <li>Bijoux</li>
-                <li>A propos</li>
-                <li>Experiences</li>
-                <li>Contact</li>
+                <li><a href="#" class="link">Lignes</a></li>
+                <li><a href="#" class="link">Bijoux</a></li>
+                <li><a href="#" class="link">Experimental</a></li>
+                <li><a href="#" class="link">A propos</a></li>
+                <li><a href="#" class="link">Contact</a></li>
             </ul>
             <div class="find-us">
                 <div class="insta">
                     <a href="https://www.instagram.com/marie_alexandrine_yvernault"><img src="img/icons/instagram.svg"
-                    alt="instagram logo">@marie_alexandrine_yvernault</a>
+                    alt="instagram logo"> marie_alexandrine_yvernault</a>
                 </div>
                 <div class="fb">
                     <a href="#"><img src="img/icons/facebook.svg"
-                    alt="facebook logo">
-                    marie_alexandrine_yvernault</a>
+                    alt="facebook logo"> marie_alexandrine_yvernault</a>
                 </div>
             </div>
         </div>
         <p>© MARIE-ALEXANDRINE YVERNAULT 2022</p>
-        <p>Made with ❤️ by Tom Dangleterre</p>
+        <p>Made with ❤️ by <a href="https://github.com/ProfessorLaytom">Tom Dangleterre</a></p>
     </footer>
 </body>
 </html>
