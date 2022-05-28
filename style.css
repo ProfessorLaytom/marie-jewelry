@@ -2,9 +2,13 @@
     font-family: 'Linux Libertine';
     src: url(fonts/Linux-libertine-caps.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'Origin';
+    src: url(fonts/Origin-Bold.ttf) format('truetype');
+}
 
 html{
-    --clear : #faf3e2;
+    --clear : #fefaf1; /*#fefa1*/
     --dark: #040A29;
     --gap-title-content: 7vh;
     --transition-time: 0.4s;
@@ -42,6 +46,11 @@ ul{
     padding: 0;
 }
 
+h2 {
+}
+
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -69,7 +78,11 @@ header>a>img{
 
 header>ul{
     display: flex;
-    margin-right: 20px;
+    margin:  0 20px;
+}
+
+header>ul:last-child{
+    padding-left: 90px;
 }
 
 header>ul>li{
