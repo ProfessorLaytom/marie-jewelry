@@ -31,7 +31,7 @@ const makeHeaderFooter = (path) => {
         code += `\t\t<a href="${path}index.html"><img src="${path}img/logo.png" alt="Logo"></a>  <!--Logo-->\n`;
         code += '\t\t<ul>\n';
         code += `\t\t\t<li><a href="${path}pages/about.html" class="link">A propos</a></li>\n`;
-        code += `\t\t\t<li><a href="${path}#" class="link">Contact</a></li>\n`;
+        code += `\t\t\t<li><a href="${path}pages/contact.html" class="link">Contact</a></li>\n`;
         code += '\t\t</ul>\n';
         return code;
     }
@@ -41,11 +41,11 @@ const makeHeaderFooter = (path) => {
         code += `\t\t\t<a href="#"><img src="${path}img/logo.png" alt="Logo"></a> <!--Logo-->\n`;
         code += '\t\t\t<ul>\n';
         code += '\t\t\t\t<li>Menu</li>\n';
-        code += `\t\t\t\t<li><a href="${path}#" class="link">Lignes</a></li>\n`;
-        code += `\t\t\t\t<li><a href="${path}#" class="link">Bijoux</a></li>\n`;
+        code += `\t\t\t\t<li><a href="${path}pages/lignes.html" class="link">Lignes</a></li>\n`;
+        code += `\t\t\t\t<li><a href="${path}pages/bijoux.html#" class="link">Bijoux</a></li>\n`;
         code += `\t\t\t\t<li><a href="${path}#" class="link">Experimental</a></li>\n`;
-        code += `\t\t\t\t<li><a href="${path}#" class="link">A propos</a></li>\n`;
-        code += `\t\t\t\t<li><a href="${path}#" class="link">Contact</a></li>\n`;
+        code += `\t\t\t\t<li><a href="${path}pages/about.html" class="link">A propos</a></li>\n`;
+        code += `\t\t\t\t<li><a href="${path}pages/contact.html" class="link">Contact</a></li>\n`;
         code += '\t\t\t</ul>\n';
         code += '\t\t\t<div class="find-us">\n';
         code += '\t\t\t\t<div class="insta">\n';

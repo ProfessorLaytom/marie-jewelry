@@ -118,6 +118,8 @@ header>ul>li{
     font-weight: 800;
 }
 
+/* lignes/bijoux */
+
 .lignes{
     display: flex;
     flex-direction: column;
@@ -162,6 +164,79 @@ header>ul>li{
     cursor: pointer;
 }
 
+/* form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width : 60vw;
+    gap : 3em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5em;
+    font-size: 22px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"] {
+    padding: .5em;
+    margin-top: 6px;
+    width: 18vw;
+    border-radius: 5px;
+    border: 3px solid var(--dark) ;
+    background-color: #fffefa;
+    font-family: 'Josefin';
+    color: rgb(75, 25, 122);
+    font-size: 18px;
+    transition: ease 0.3s;
+}
+input[type="text"]:invalid:not(:placeholder-shown), 
+input[type="email"]:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border: 3px solid rgb(255, 0, 123);
+    box-shadow: 0 0 14px rgb(255, 0, 123);
+}
+input[type="text"]:focus , 
+input[type="email"]:focus {
+    outline: none;
+    margin-top: 6px;
+    width: 18vw;
+    border-radius: 5px;
+    box-shadow: 0 0 14px  -5px var(--dark);
+}
+
+textarea:focus {
+    outline: none;
+    margin-top: 6px;
+    border-radius: 5px;
+    box-shadow: 0 0 14px  -5px var(--dark);
+}
+
+textarea {
+    resize: vertical;
+    padding: .5em;
+    margin-top: 6px;
+    width: 30vw;
+    height: 10em;
+    border-radius: 5px;
+    border: 3px solid var(--dark) ;
+    background-color: #fffefa;
+    font-family: 'Josefin';
+    color: rgb(75, 25, 122);
+    font-size: 18px;
+    transition: ease 0.3s;
+}
+
+/* about */
+
 .about {
     width: 100%;
     display: flex;
@@ -197,6 +272,7 @@ header>ul>li{
     width: calc(100vw - var(--img-width) - 15vw);
 }
 
+/* creations */
 .creations {
     display: flex;
     flex-direction: column;
@@ -236,8 +312,11 @@ header>ul>li{
     object-fit: cover;
 }
 
+/* button */
+
 #contact {
     padding: 10px 20px;
+    width: fit-content;
     font-size: min(3vw, 33px);
     font-family: 'Josefin Sans';
     border-radius: 5px;
@@ -254,6 +333,8 @@ header>ul>li{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+/* footer */
 
 footer{
     display: flex;
@@ -398,3 +479,4 @@ footer p{
     display: block;
     height: auto;
 }
+
