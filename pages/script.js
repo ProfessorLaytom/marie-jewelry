@@ -1,6 +1,6 @@
-import makeHeaderFooter from "./headerfooter.js";
+import makeHeaderFooter from "../headerfooter.js";
 
-makeHeaderFooter('')
+makeHeaderFooter('../')
 
 function reveal() {
     const reveals = document.querySelectorAll(".reveal");
@@ -18,4 +18,3 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-
