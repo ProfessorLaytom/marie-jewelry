@@ -12,13 +12,18 @@
     src: url(fonts/Coda-Regular.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'Teko';
+    src: url(fonts/Teko-Light.ttf) format('truetype');
+}
 
 html{
     --clear : #fefaf1; /*#fefa1*/
     --dark: #040A29;
     --gap-title-content: 7vh;
     --transition-time: 0.4s;
-    font-family: 'Coda';
+    --common-font: 'Coda';
+    font-family: var(--common-font);
     color: var(--dark);
     background-color: var(--clear);
 
@@ -63,6 +68,7 @@ header{
     padding: 10px;
     background-color: var(--dark);
     color: var(--clear);
+    font-size: 18px;
     position: fixed;
     z-index: 2;
     border-bottom: 0px solid var(--clear);
@@ -163,11 +169,20 @@ header>ul>li{
 
 .ligne>h3 {
     font-weight: 200;
+    color: var(--dark);
 }
 
 .ligne:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+
+/* List of jewels */
+
+.list>img {
+    width: min(300px, 30vw);
+    height: min(300px, 30vw);
+    object-fit: cover;
 }
 
 /* form styling */
@@ -210,7 +225,7 @@ input[type="text"], input[type="email"] {
     border-radius: 5px;
     border: 3px solid var(--dark) ;
     background-color: #fffefa;
-    font-family: 'Coda';
+    font-family: var(--common-font);
     color: rgb(75, 25, 122);
     font-size: 18px;
     transition: ease 0.3s;
@@ -246,7 +261,7 @@ textarea {
     border-radius: 5px;
     border: 3px solid var(--dark) ;
     background-color: #fffefa;
-    font-family: 'Coda';
+    font-family: var(--common-font);
     color: rgb(75, 25, 122);
     font-size: 18px;
     transition: ease 0.3s;
@@ -335,7 +350,7 @@ textarea {
     padding: 10px 20px;
     width: fit-content;
     font-size: min(3vw, 33px);
-    font-family: 'Coda';
+    font-family: var(--common-font);
     border-radius: 5px;
     border: 2px solid var(--dark);
     color: var(--clear);
