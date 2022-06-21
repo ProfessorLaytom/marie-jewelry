@@ -146,6 +146,7 @@ header>ul>li{
 
 .ligne-container{
     display: flex;
+    row-gap: 4em;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
@@ -170,6 +171,13 @@ header>ul>li{
 .ligne>h3 {
     font-weight: 200;
     color: var(--dark);
+    margin-bottom: 0.5em;
+}
+
+.ligne>h4 {
+    margin: 0;
+    color: var(--dark);
+    font-weight: 200;
 }
 
 .ligne:hover{
@@ -180,8 +188,8 @@ header>ul>li{
 /* List of jewels */
 
 .list>img {
-    width: min(300px, 30vw);
-    height: min(300px, 30vw);
+    width: min(200px, 20vw);
+    height: min(200px, 20vw);
     object-fit: cover;
 }
 
@@ -412,6 +420,14 @@ footer{
 
 .find-us{
     margin-right: 5vw;
+}
+
+.insta, .fb {
+    transition: var(--transition-time);
+}
+
+.insta:hover, .fb:hover{
+    transform: scale(1.1);
 }
 
 .insta>a, .fb>a{

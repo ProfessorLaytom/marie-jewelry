@@ -21,10 +21,11 @@ const makeHeaderFooter = (path) => {
         code += `\t\t\t<li class="dropdown-menu"><a href="${path}pages/bijoux.html" class="link">Bijoux</a>\n`;
         code += '\t\t\t\t<div class="dropdown">\n';
         code += `\t\t\t\t\t<a href="${path}pages/bijoux.html">Tous nos bijoux</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}#">Bagues</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}#">Colliers</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}#">Manchettes</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}#">Boucles de ceinture</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list_bagues.html">Bagues</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list_colliers.html">Colliers</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list_manchettes.html">Manchettes</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list_bracelets.html">Bracelets</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list_boucles.html">Boucles de ceinture</a>\n`;
         code += '\t\t\t\t</div></li>\n';
         // code += '\t\t\t<li><a href="#" class="link">Experimental</a></li>\n';
         code += '\t\t</ul>\n';
