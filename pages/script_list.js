@@ -4,6 +4,7 @@ makeHeaderFooter('../')
 const ligneContainer = document.querySelector('.ligne-container');
 
 const getNumberOfJewelInLigne = (ligne, bijoux) => {
+    // returns the number of bijoux for each ligne
     if (ligne == 'bleu') {
         switch (bijoux) {
             case 'bague':
@@ -35,13 +36,13 @@ const getNumberOfJewelInLigne = (ligne, bijoux) => {
 }
 
 const pictureCollector = (ligne, bijoux) => {
-    console.log('ok')
+    //creates cards for each bijoux in a specific ligne.
     const n = getNumberOfJewelInLigne(ligne, bijoux)
     // n is the number of a certain jewel type in the ligne
     const folder = '../img/bijoux/ligne-'+ ligne + '/'
     for (let k = 1; k<=n; k++){
         const a = document.createElement('a')
-        a.href = '#'
+        a.href = `${ligne}-${bijoux}-${k}.html`
         const div = document.createElement('div');
         div.classList.add('ligne');
         div.classList.add('list');
@@ -65,4 +66,5 @@ const bijouxDiv = document.querySelector('.lignes>h2');
 //removes the 'Nos ' and the 's' at the end (plural)
 const bijouxName = bijouxDiv.textContent.replace('Nos ', '').slice(0, -1);
 console.log(bijouxName)
+//creates the cards for a particular bijoux type in each ligne.
 lignes.forEach(x => pictureCollector(x, bijouxName))
