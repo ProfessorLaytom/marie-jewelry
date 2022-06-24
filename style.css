@@ -374,6 +374,19 @@ textarea {
     cursor: pointer;
 }
 
+/* Product page */
+
+.more {
+    height: auto;
+    margin: 1em;
+}
+
+.hidden {
+    display: none;
+    height: 0px;
+    font-size: 0;
+}
+
 /* footer */
 
 footer{
