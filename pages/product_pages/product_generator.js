@@ -14,10 +14,10 @@ function revealCharacteristics() {
     const btnText = document.querySelector(".show-more");
   
     if (more.classList.contains('hidden')) {
-      btnText.innerHTML = "&#8896 Characteristics &#8896"; 
+      btnText.innerHTML = "Show less"; 
       more.classList.remove('hidden')
     } else {
-      btnText.innerHTML = "&#8897 Characteristics &#8897"; 
+      btnText.innerHTML = "Show more info"; 
       more.classList.add('hidden')
     }
   }

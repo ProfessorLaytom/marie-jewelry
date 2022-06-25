@@ -421,11 +421,11 @@ textarea {
 }
 
 .zoomed {
-    height: 700px;
+    height: 600px;
     width: auto;
     position: absolute;
     top: 12vh;
-    left: 12vh;
+    left: 20vh;
     z-index: 3;
     cursor: zoom-out;
 }
@@ -451,11 +451,11 @@ textarea {
     font-size: 22px;
     padding: 10px;
     border: 0;
-    border-bottom: 2px solid var(--dark);
     background-color: var(--clear);
     cursor: pointer;
     font-family: 'Coda';
     transition: var(--transition-time) ease-in-out;
+    border-bottom: 1px solid var(--dark);
 }
 
 .show-more:hover {
