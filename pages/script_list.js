@@ -42,7 +42,7 @@ const pictureCollector = (ligne, bijoux) => {
     const folder = '../img/bijoux/ligne-'+ ligne + '/'
     for (let k = 1; k<=n; k++){
         const a = document.createElement('a')
-        a.href = `${ligne}-${bijoux}-${k}.html`
+        a.href = `product_pages/${ligne}-${bijoux}-${k}.html`
         const div = document.createElement('div');
         div.classList.add('ligne');
         div.classList.add('list');

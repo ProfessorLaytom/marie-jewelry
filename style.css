@@ -20,6 +20,7 @@
 html{
     --clear : #fefaf1; /*#fefa1*/
     --dark: #040A29;
+    --lessClear: #fbe8ba91;
     --gap-title-content: 7vh;
     --transition-time: 0.4s;
     --common-font: 'Coda';
@@ -70,7 +71,7 @@ header{
     color: var(--clear);
     font-size: 18px;
     position: fixed;
-    z-index: 2;
+    z-index: 4;
     border-bottom: 0px solid var(--clear);
     box-shadow: 0 0 10px black;
 }
@@ -376,6 +377,90 @@ textarea {
 
 /* Product page */
 
+.product {
+    display: flex;
+    width: 70vw;
+    margin-top: -40px;
+}
+
+.product-images {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-images>img {
+    height: 400px;
+    width: auto;
+    object-fit:cover ;
+    cursor: zoom-in;
+}
+
+.img-list {
+    display: flex;
+}
+
+.img-list div {
+    margin: 10px;
+}
+
+.img-list img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    transition: ease-in-out var(--transition-time);
+}
+
+.selected {
+    opacity: .3;
+}
+
+.img-zoom {
+    display: none;
+}
+
+.zoomed {
+    height: 700px;
+    width: auto;
+    position: absolute;
+    top: 12vh;
+    left: 12vh;
+    z-index: 3;
+    cursor: zoom-out;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.right h2 {
+    font-weight: 200;
+}
+
+.characteristics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-more {
+    font-size: 22px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 2px solid var(--dark);
+    background-color: var(--clear);
+    cursor: pointer;
+    font-family: 'Coda';
+    transition: var(--transition-time) ease-in-out;
+}
+
+.show-more:hover {
+    transform: scale(1.1);
+}
 .more {
     height: auto;
     margin: 1em;
@@ -386,6 +471,17 @@ textarea {
     height: 0px;
     font-size: 0;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid var(--lessClear);
+}
+
 
 /* footer */
 
