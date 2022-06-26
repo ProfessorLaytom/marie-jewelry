@@ -22,8 +22,8 @@
     <div class="form">
         <p>Aliquip ad incididunt nisi Lorem consequat dolor consequat. Qui cillum commodo sunt incididunt quis commodo dolor. Occaecat pariatur irure nisi adipisicing irure ipsum nisi est laborum duis fugiat do sit. Adipisicing deserunt cupidatat deserunt est cupidatat aute culpa fugiat magna do elit in ex. Ut adipisicing ea excepteur dolor laboris. Culpa non exercitation velit ipsum exercitation adipisicing qui sit aliqua nisi Lorem eu. Nulla reprehenderit consectetur culpa ipsum reprehenderit sit.</p>
 
-        <form id="form"
-        action="https://usebasin.com/f/150fcaeaac3d"
+        <form id="form" class="gform"
+        action="https://script.google.com/macros/s/AKfycbzxKT0MtE1gj4iIPGznelJzoqM1ZZG8-sJ4SStG4sEsT8CBivJPCyGVDrI0YsGRgF0U/exec"
         method="POST" enctype="multipart/form-data">
             <div class="form-container">
                 <label for="first-name" >
@@ -48,18 +48,6 @@
     </div>
     <footer>
     </footer>
-    <script type="text/javascript">
-        function configureAhoy() {
-          ahoy.configure({
-            visitsUrl: "https://usebasin.com/ahoy/visits",
-            eventsUrl: "https://usebasin.com/ahoy/events",
-            page: "150fcaeaac3d" /* Use your form id here */
-          });
-          ahoy.trackView();
-          ahoy.trackSubmits();
-        }
-      </script>
-      <script src="https://cdn.jsdelivr.net/npm/ahoy.js@0.3.9/dist/ahoy.min.js" async defer onload="configureAhoy()"></script>
-      
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
 </body>
 </html>

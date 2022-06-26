@@ -5,10 +5,7 @@ makeHeaderFooter('../')
 let submitted = false;
 
 
-const gform = document.querySelector('#gform');
-const iframe = document.querySelector('iframe')
-gform.onsubmit(function(e) {submitted=true})
-iframe.onload(function(e) {if(submitted){}})
+const gform = document.querySelector('#form');
 
 gform.addEventListener('submit', function(e){
     gform.remove()
