@@ -70,7 +70,7 @@
       xhr.onreadystatechange = function() {
           if (xhr.readyState === 4 && xhr.status === 200) {
             form.reset();
-            var formElements = form.querySelector(".form-elements")
+            var formElements = form.querySelector(".form-container")
             if (formElements) {
               formElements.style.display = "none"; // hide form
             }
@@ -99,7 +99,7 @@
     function disableAllButtons(form) {
       var buttons = form.querySelectorAll("button");
       for (var i = 0; i < buttons.length; i++) {
-        buttons[i].disabled = true;
+        buttons[i].remove();
       }
     }
   })();
