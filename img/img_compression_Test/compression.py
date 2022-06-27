@@ -6,7 +6,8 @@ import glob
 
 filename = 'frontimg2.png'
 file = filename.split('.')
+filename = file[0]
 picture = Image.open(filename)
-rgbpic = picture.convert('RGB')
+rgbpic = picture.convert('RGB') #to convert to jpg
 print(f'dimension : ${picture.size}')
-rgbpic.save('./compressed/'+file[0]+'.jpg', optimize=True, quality=75)
+rgbpic.save('./compressed/'+filename+'.jpg', optimize=True, quality=75)
