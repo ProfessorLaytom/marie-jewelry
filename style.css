@@ -333,16 +333,17 @@ textarea {
     gap: calc(var(--img-size)/2);
 }
 
-.creation {
+a .creation {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: var(--img-size);
     text-align: center;
     transition: var(--transition-time);
+    color: var(--dark);
 }
 
-.creation:hover{
+a  .creation:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
