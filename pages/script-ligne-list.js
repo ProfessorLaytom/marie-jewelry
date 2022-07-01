@@ -43,6 +43,7 @@ const pictureCollector = (ligne, bijoux) => {
     for (let k = 1; k<=n; k++){
         const a = document.createElement('a')
         a.href = `product_pages/${ligne}-${bijoux}-${k}.html`
+        a.classList.add('product-link')
         const div = document.createElement('div');
         div.classList.add('ligne');
         div.classList.add('list');
