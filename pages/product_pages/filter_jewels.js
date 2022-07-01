@@ -7,7 +7,8 @@ import products from './products.js'
 const filterJewels = (filter) => {
     // filter is an array where the first element is the
     // filtering condition and the second is the parameter
-    // (example ['size', 55])
+    // (example ['size', 55] will remove all elements where the
+    // size is NOT 55)
     // NEEDS TESTING
     const links = Array.from(document.querySelectorAll('.product-link'))
     const ligneContainer = document.querySelector('.ligne-container');
