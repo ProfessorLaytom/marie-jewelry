@@ -8,6 +8,7 @@ const filterJewels = (filter) => {
     // filter is an array where the first element is the
     // filtering condition and the second is the parameter
     // (example ['size', 55])
+    // NEEDS TESTING
     const links = Array.from(document.querySelectorAll('.product-link'))
     const ligneContainer = document.querySelector('.ligne-container');
     const onPageItemsIdList = []
@@ -19,7 +20,7 @@ const filterJewels = (filter) => {
         const itemK = onPageItemsIdList[k]
         for (let j = 0; j< products.length ; j++ ){
             if (products[j][id] == itemK && products[j][filter[0]] != filter[1] ){
-                ligneContainer.removeChild(links[k])
+                ligneContainer.removeChild(links[k]) //not sure if it works, needs testing, impossible without the item ids
             }
         }
     }
