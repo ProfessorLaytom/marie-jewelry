@@ -27,10 +27,10 @@ const makeHeaderFooter = (path) => {
         code += `\t\t\t\t\t<a href="${path}pages/list_bracelets.html">Bracelets</a>\n`;
         code += `\t\t\t\t\t<a href="${path}pages/list_boucles.html">Boucles de ceinture</a>\n`;
         code += '\t\t\t\t</div></li>\n';
-        // code += '\t\t\t<li><a href="#" class="link">Experimental</a></li>\n';
         code += '\t\t</ul>\n';
         code += `\t\t<a href="${path}index.html"><img src="${path}img/logo.png" alt="Logo"></a>  <!--Logo-->\n`;
         code += '\t\t<ul>\n';
+        code += `\t\t\t<li><a href="${path}pages/gallery.html" class="link">Experimental</a></li>\n`;
         code += `\t\t\t<li><a href="${path}pages/about.html" class="link">A propos</a></li>\n`;
         code += `\t\t\t<li><a href="${path}pages/contact.html" class="link">Contact</a></li>\n`;
         code += '\t\t</ul>\n';
@@ -52,10 +52,6 @@ const makeHeaderFooter = (path) => {
         code += '\t\t\t\t<div class="insta">\n';
         code += `\t\t\t\t\t<a href="https://www.instagram.com/marie_alexandrine_yvernault"><img src="${path}img/icons/instagram.svg"\n`;
         code += '\t\t\t\t\talt="instagram logo"> marie_alexandrine_yvernault</a>\n';
-        code += '\t\t\t\t</div>\n';
-        code += '\t\t\t\t<div class="fb">\n';
-        code += `\t\t\t\t\t<a href="${path}#"><img src="${path}img/icons/facebook.svg"\n`;
-        code += '\t\t\t\t\talt="facebook logo"> marie_alexandrine_yvernault</a>\n';
         code += '\t\t\t\t</div>\n';
         code += '\t\t\t</div>\n';
         code += '\t\t</div>\n';

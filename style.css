@@ -83,7 +83,7 @@ header>a {
 header>a>img{
     height: 100%;
     width: auto;
-    margin-left: 20px;
+    margin-left: 170px;
 }
 
 header>ul{
@@ -274,6 +274,21 @@ textarea {
     color: rgb(75, 25, 122);
     font-size: 18px;
     transition: ease 0.3s;
+}
+
+/* Gallery */
+
+.images {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery-img {
+    width: 40%;
+    height: auto;
 }
 
 /* about */
