@@ -32,8 +32,8 @@ const makeHeaderFooter = (path) => {
         code += '\t\t<ul>\n';
         code += `\t\t\t<li class="dropdown-menu"><a class='link' href="" style="cursor:pointer;"><img src= "${path}img/icons/language.svg"></a>\n`;
         code += '\t\t\t\t<div class="dropdown">\n';
-        code += `\t\t\t\t\t<a href="${path}index.html">Français</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}en/index.html">English</a></div></li>\n`;
+        code += `\t\t\t\t\t<a href="${path}index.html">French</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-pyrite.html">English</a></div></li>\n`;
         code += `\t\t\t<li><a href="${path}pages/about.html" class="link">A propos</a></li>\n`;
         code += `\t\t\t<li><a href="${path}pages/contact.html" class="link">Contact</a></li>\n`;
         code += '\t\t</ul>\n';
