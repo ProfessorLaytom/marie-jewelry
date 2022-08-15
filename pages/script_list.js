@@ -69,3 +69,4 @@ const bijouxName = bijouxDiv.textContent.replace('Nos ', '').slice(0, -1);
 console.log(bijouxName)
 //creates the cards for a particular bijoux type in each ligne.
 lignes.forEach(x => pictureCollector(x, bijouxName))
+console.log('ok')
