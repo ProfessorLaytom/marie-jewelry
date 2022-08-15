@@ -40,7 +40,7 @@ body {
 
 @media (max-width: 700px){
     body{
-        gap: 0;
+        gap: 10px;
     }
 }
 
