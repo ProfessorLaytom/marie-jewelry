@@ -38,8 +38,14 @@ body {
     gap: 5vh;
 }
 
+@media (max-width: 700px){
+    body{
+        gap: 0;
+    }
+}
+
 p{
-    font-size: min(3vw, 22px);
+    font-size: min(4vw, 22px);
 }
 
 a, a:visited {
@@ -225,8 +231,8 @@ header>ul>li>a>img:hover {
 /* List of jewels */
 
 .list>img {
-    width: min(200px, 20vw);
-    height: min(200px, 20vw);
+    width: min(200px, 30vw);
+    height: min(200px, 30vw);
     object-fit: cover;
 }
 
@@ -340,12 +346,6 @@ textarea {
     padding: 5vw 0 5vw 0;
     gap: var(--gap-title-content);
 }
-@media (max-width:700px) {
-    .about {
-        gap : 20px
-    }
-}
-
 
 .about>h2{
     margin: 0;
@@ -368,6 +368,25 @@ textarea {
 
 .about-container>p{
     width: calc(100vw - var(--img-width) - 15vw);
+}
+
+@media (max-width:700px) {
+    .about {
+        gap : 20px
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .about-container>img {
+        width: 80vw;
+    }
+
+    .about-container>p {
+        width: 90vw;
+    }
 }
 
 /* creations */
@@ -411,12 +430,23 @@ a  .creation:hover{
     object-fit: cover;
 }
 
+@media (max-width:700px) {
+    a .creation {
+        width: 30vw;
+        gap : 10px
+    }
+
+    .creation>img {
+        width: 35vw;
+    }
+}
+
 /* button */
 
 #contact {
     padding: 10px 20px;
     width: fit-content;
-    font-size: min(3vw, 33px);
+    font-size: min(6vw, 33px);
     font-family: var(--common-font);
     border-radius: 5px;
     border: 2px solid var(--dark);
@@ -424,6 +454,7 @@ a  .creation:hover{
     background-color: var(--dark);
     transition: var(--transition-time);
 }
+
 
 #contact:hover{
     border: 2px solid var(--dark);
@@ -710,7 +741,7 @@ footer p{
     .logo>a>img{
         height: 7vh;
         width: auto;
-        margin-top: -5px;
+        margin-top: -3px;
     }
 
     * {
@@ -719,9 +750,6 @@ footer p{
     box-sizing: border-box;
     }
 
-    body {
-    font-family: "Poppins", sans-serif;
-    }
 
     nav {
         width: 100%;
