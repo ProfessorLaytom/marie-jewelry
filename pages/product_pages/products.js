@@ -609,6 +609,296 @@ const products = [
  treatment:"plaque or", 
  weight:"197.9" 
 }, 
+{
+ ref:"18+221",
+ id:"", 
+ dimension:"6x6.5x9", 
+ material:"argent", 
+ size:"", 
+ stone:"dioptase + emeraude",
+ treatment:"plaque or", 
+ weight:"262.4" 
+}, 
+{
+ ref:"000",
+ id:"", 
+ dimension:"5.5x5.5x5", 
+ material:"bronze", 
+ size:"", 
+ stone:"diamant noir",
+ treatment:"plaque or", 
+ weight:"192.2" 
+}, 
+{
+ ref:"234",
+ id:"", 
+ dimension:"3.8x3.5x4.7", 
+ material:"argent", 
+ size:"58", 
+ stone:"tourmaline 38.16 CT + aigue-marine ",
+ treatment:"plaque or", 
+ weight:"80" 
+}, 
+{
+ ref:"231",
+ id:"", 
+ dimension:"3.5x2.5x3", 
+ material:"argent", 
+ size:"58", 
+ stone:"azurite + aigue-marine",
+ treatment:"plaque or", 
+ weight:"40" 
+}, 
+{
+ ref:"227",
+ id:"", 
+ dimension:"4.2x3x2.5", 
+ material:"argent", 
+ size:"56", 
+ stone:"pyrite + diamant noir",
+ treatment:"plaque or", 
+ weight:"46" 
+}, 
+{
+ ref:"225",
+ id:"", 
+ dimension:"4x3x2.3", 
+ material:"argent", 
+ size:"59", 
+ stone:"pyrite + diamant noir",
+ treatment:"plaque or", 
+ weight:"46" 
+}, 
+{
+ ref:"226",
+ id:"", 
+ dimension:"3.5x2.5x1.4", 
+ material:"argent", 
+ size:"57", 
+ stone:"pyrite + diamant noir",
+ treatment:"plaque or", 
+ weight:"40" 
+}, 
+{
+ ref:"229",
+ id:"", 
+ dimension:"3.5x3.3x2", 
+ material:"argent", 
+ size:"54", 
+ stone:"proustite + diamant noir",
+ treatment:"plaque or", 
+ weight:"38" 
+}, 
+{
+ ref:"223",
+ id:"", 
+ dimension:"4x2x2.2", 
+ material:"argent", 
+ size:"58", 
+ stone:"quartz",
+ treatment:"plaque or", 
+ weight:"37" 
+}, 
+{
+ ref:"",
+ id:"", 
+ dimension:"3.3x2.7x3.5", 
+ material:"argent", 
+ size:"58", 
+ stone:"aigue marine brute + saphir",
+ treatment:"plaque or", 
+ weight:"50" 
+}, 
+{
+ ref:"243",
+ id:"", 
+ dimension:"2.5x3x4.5", 
+ material:"argent", 
+ size:"56", 
+ stone:"malachite + emeraude",
+ treatment:"plaque or", 
+ weight:"34" 
+}, 
+{
+ ref:"239",
+ id:"", 
+ dimension:"11.5", 
+ material:"bronze", 
+ size:"", 
+ stone:"dioptase + 8 lolites",
+ treatment:"plaque or", 
+ weight:"289" 
+}, 
+{
+ ref:"240",
+ id:"", 
+ dimension:"12", 
+ material:"bronze", 
+ size:"", 
+ stone:"amethyste",
+ treatment:"plaque or", 
+ weight:"318.2" 
+}, 
+{
+ ref:"241",
+ id:"", 
+ dimension:"11.5", 
+ material:"bronze", 
+ size:"", 
+ stone:"3 dioptases",
+ treatment:"plaque or", 
+ weight:"299.6" 
+}, 
+{
+ ref:"242",
+ id:"", 
+ dimension:"12", 
+ material:"bronze", 
+ size:"", 
+ stone:"malachites",
+ treatment:"plaque or", 
+ weight:"118.1" 
+}, 
+{
+ ref:"238",
+ id:"", 
+ dimension:"6x6x11", 
+ material:"bronze", 
+ size:"", 
+ stone:"malachite",
+ treatment:"plaque or", 
+ weight:"152.3" 
+}, 
+{
+ ref:"243",
+ id:"", 
+ dimension:"", 
+ material:"argent", 
+ size:"", 
+ stone:"",
+ treatment:"argent", 
+ weight:"" 
+}, 
+{
+ ref:"244",
+ id:"", 
+ dimension:"3.8x2.5x2.5", 
+ material:"argent", 
+ size:"59", 
+ stone:"pyrite",
+ treatment:"argent", 
+ weight:"36.5" 
+}, 
+{
+ ref:"245",
+ id:"", 
+ dimension:"3.5x3x3", 
+ material:"argent", 
+ size:"59", 
+ stone:"amethyste verte",
+ treatment:"argent", 
+ weight:"45.2" 
+}, 
+{
+ ref:"246",
+ id:"", 
+ dimension:"3.5x2.5x2.2", 
+ material:"argent", 
+ size:"60", 
+ stone:"pyrite",
+ treatment:"argent", 
+ weight:"42.1" 
+}, 
+{
+ ref:"247",
+ id:"", 
+ dimension:"3.5x2.5x2", 
+ material:"argent", 
+ size:"59", 
+ stone:"tourmaline + aigue-marine brute",
+ treatment:"argent", 
+ weight:"33.8" 
+}, 
+{
+ ref:"236",
+ id:"", 
+ dimension:"", 
+ material:"bronze", 
+ size:"", 
+ stone:"agate cristallisee",
+ treatment:"plaque or", 
+ weight:"" 
+}, 
+{
+ ref:"235",
+ id:"", 
+ dimension:"6x6.5x9", 
+ material:"bronze", 
+ size:"", 
+ stone:"agate",
+ treatment:"plaque or", 
+ weight:"179.8" 
+}, 
+{
+ ref:"251 B",
+ id:"", 
+ dimension:"5.5x3.5", 
+ material:"bronze", 
+ size:"", 
+ stone:"malachite",
+ treatment:"plaque or", 
+ weight:"23.8" 
+}, 
+{
+ ref:"251 A",
+ id:"", 
+ dimension:"4.5x2.8", 
+ material:"bronze", 
+ size:"", 
+ stone:"malachite",
+ treatment:"plaque or", 
+ weight:"20.4" 
+}, 
+{
+ ref:"253",
+ id:"", 
+ dimension:"6x6x11.5", 
+ material:"bronze", 
+ size:"", 
+ stone:"agate cristallisee",
+ treatment:"plaque or", 
+ weight:"177.6" 
+}, 
+{
+ ref:"254",
+ id:"", 
+ dimension:"6x7.5x7", 
+ material:"bronze", 
+ size:"", 
+ stone:"obsidienne",
+ treatment:"plaque or", 
+ weight:"163.3" 
+}, 
+{
+ ref:"38",
+ id:"", 
+ dimension:"3x3x2", 
+ material:"argent", 
+ size:"54", 
+ stone:"amethyste verte",
+ treatment:"plaque or", 
+ weight:"36.6" 
+}, 
+{
+ ref:"198",
+ id:"", 
+ dimension:"6x6x6.5", 
+ material:"bronze", 
+ size:"", 
+ stone:"2 azurite brute",
+ treatment:"plaque or", 
+ weight:"151.9" 
+}, 
 
  ] 
  export default products

@@ -114,7 +114,7 @@ const makeHeaderFooter = (path) => {
         code += '\t\t<p>Made with ❤️ by <a href="https://github.com/ProfessorLaytom">Tom Dangleterre</a></p>\n';
         return code;
     }
-    const x = window.matchMedia("(max-width: 700px)")
+    let x = window.matchMedia("(max-width: 700px)")
     if (x.matches){
         header.innerHTML = js_thml_phone(path)
         footer.innerHTML = js_thml2_phone(path)

@@ -241,8 +241,9 @@ header>ul>li>a>img:hover {
 .form {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    width : 50vw;
+    width : 70vw;
     gap : 3em;
     text-align: center;
 }
@@ -258,8 +259,9 @@ form {
 
 .form-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
     gap: 1.5em;
     font-size: 22px;
 }
@@ -273,7 +275,7 @@ input[type="text"], input[type="email"] {
     padding: .5em;
     margin-top: 6px;
     width: 18vw;
-    border-radius: 5px;
+    border-radius: 1px;
     border: 3px solid var(--dark) ;
     background-color: #fffefa;
     font-family: var(--common-font);
@@ -318,6 +320,32 @@ textarea {
     transition: ease 0.3s;
 }
 
+@media (max-width: 700px){
+
+    .form {
+        width: 95vw;
+    }
+
+    .form-container{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 90vw;
+    }
+
+    input[type="text"]:focus , 
+    input[type="email"]:focus  {
+        width: 90vw;
+    }
+
+    textarea {
+        width: 90vw;
+    }
+}
+
 /* Gallery */
 
 .images {
@@ -331,6 +359,16 @@ textarea {
 .gallery-img {
     width: 40%;
     height: auto;
+}
+
+@media (max-width: 700px){
+    .images {
+        width: 90vw;
+    }
+    .gallery-img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 /* about */
@@ -444,6 +482,7 @@ a  .creation:hover{
 /* button */
 
 #contact {
+    margin: 10px;
     padding: 10px 20px;
     width: fit-content;
     font-size: min(6vw, 33px);
@@ -571,6 +610,27 @@ td {
     border-bottom: 2px solid var(--lessClear);
 }
 
+@media (max-width:700px){
+    .product{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-images>img {
+        width: 90vw;
+        height: 90vw;
+        cursor: default;
+    }
+
+    .img-list img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .right {
+        width: 90vw;
+    }
+}
 
 /* footer */
 

@@ -48,8 +48,10 @@ function showDivs(n) {
 const demo = Array.from(document.querySelectorAll('.demo'))
 demo.forEach(x => x.addEventListener('click', e => currentDiv(e)));
 
-document.querySelectorAll('.mySlides').forEach(x => x.addEventListener('click', loupe))
-
+let x = window.matchMedia("(max-width: 700px)")
+if (!x.matches){
+  document.querySelectorAll('.mySlides').forEach(x => x.addEventListener('click', loupe))
+}
 
 function loupe(e){
   const zoomContainer = document.querySelector('.img_zoom')
@@ -59,3 +61,10 @@ function loupe(e){
   zoomContainer.appendChild(zoomed)
   zoomed.addEventListener('click', x => zoomed.remove())  
 }
+
+const description = document.querySelector('.description')
+const material = document.querySelector('.material').textContent
+const treatment = document.querySelector('.treatment').textContent
+const stone = document.querySelector('.stone').textContent
+
+description.textContent = `${text[1]} en ${material}, traitee en ${treatment}, garnis des pierres ${stone}`
