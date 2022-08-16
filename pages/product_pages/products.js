@@ -411,7 +411,7 @@ const products = [
 }, 
 {
  ref:"181",
- id:"noir-bague-1", 
+ id:"noire-bague-1", 
  dimension:"3.5x2.5x1.5", 
  material:"argent", 
  size:"58", 
