@@ -8,24 +8,80 @@ const getNumberOfJewelInLigne = (ligne, bijoux) => {
     if (ligne == 'bleu') {
         switch (bijoux) {
             case 'bague':
-                return 5
+                return 8
             case 'manchette':
                 return 0
-            case 'boucle':
-                return 1
             case 'collier':
                 return 0
             case 'bracelet':
                 return 0
         }
     }
-    if (ligne == 'claire') {
+    if (ligne == 'blanche') {
+        switch (bijoux) {
+            case 'bague':
+                return 8
+            case 'manchette':
+                return 0
+            case 'collier':
+                return 0
+            case 'bracelet':
+                return 0
+        }
+    }
+    if (ligne == 'argent') {
+        switch (bijoux) {
+            case 'bague':
+                return 6
+            case 'manchette':
+                return 0
+            case 'collier':
+                return 0
+            case 'bracelet':
+                return 0
+        }
+    }
+    if (ligne == 'noire') {
+        switch (bijoux) {
+            case 'bague':
+                return 1
+            case 'manchette':
+                return 0
+            case 'collier':
+                return 0
+            case 'bracelet':
+                return 0
+        }
+    }
+    if (ligne == 'pyrite') {
         switch (bijoux) {
             case 'bague':
                 return 5
             case 'manchette':
                 return 0
-            case 'boucle':
+            case 'collier':
+                return 0
+            case 'bracelet':
+                return 0
+        }
+    }
+    if (ligne == 'verte') {
+        switch (bijoux) {
+            case 'bague':
+                return 2
+            case 'manchette':
+                return 0
+            case 'collier':
+                return 0
+            case 'bracelet':
+                return 0
+        }
+    }
+    if (ligne == 'violette') {
+        switch (bijoux) {
+            case 'bague':
+                return 1
+            case 'manchette':
                 return 0
             case 'collier':
                 return 0
@@ -48,7 +104,7 @@ const pictureCollector = (ligne, bijoux) => {
         div.classList.add('ligne');
         div.classList.add('list');
         const img = document.createElement('img');
-        img.src = folder + bijoux + '-' + k+'.jpeg';
+        img.src = folder + bijoux + '-' + k+'1.jpg';
         const legend1 = document.createElement('h3')
         legend1.textContent =  `${bijoux} n°${k}`
         div.appendChild(img);

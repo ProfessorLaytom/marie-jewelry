@@ -12,10 +12,11 @@ const makeHeaderFooter = (path) => {
         code += `\t\t\t\t\t<a href="${path}pages/lignes.html">Toutes nos lignes</a>\n`;
         code += `\t\t\t\t\t<a href="${path}pages/list-ligne-pyrite.html">Ligne pyrite</a>\n`;
         code += `\t\t\t\t\t<a href="${path}pages/list-ligne-bleu.html">Ligne bleu</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-or.html">Ligne or</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-claire.html">Ligne claire</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-argent.html">Ligne argent</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-blanche.html">Ligne blanche</a>\n`;
         code += `\t\t\t\t\t<a href="${path}pages/list-ligne-verte.html">Ligne verte</a>\n`;
         code += `\t\t\t\t\t<a href="${path}pages/list-ligne-noire.html">Ligne noire</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-violette.html">Ligne violette</a>\n`;
         code += '\t\t\t\t</div>\n';
         code += '\t\t\t</li>\n';
         code += `\t\t\t<li class="dropdown-menu"><a href="${path}pages/bijoux.html" class="link">Bijoux</a>\n`;

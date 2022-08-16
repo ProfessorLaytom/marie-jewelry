@@ -1,7 +1,7 @@
 const products = [ 
 {
  ref:"203",
- id:"bleu-bague-1", 
+ id:"bleu-bague-2", 
  dimension:"3.2x2.7x3.6", 
  material:"argent", 
  size:"55", 
@@ -11,7 +11,7 @@ const products = [
 }, 
 {
  ref:"41",
- id:"bleu-bague-2", 
+ id:"bleu-bague-5", 
  dimension:"3x4x2.5", 
  material:"argent", 
  size:"57", 
@@ -41,7 +41,7 @@ const products = [
 }, 
 {
  ref:"183",
- id:"", 
+ id:"bleu-bague-8", 
  dimension:"3.3x2.2x2", 
  material:"argent", 
  size:"58", 
@@ -51,7 +51,7 @@ const products = [
 }, 
 {
  ref:"187",
- id:"", 
+ id:"blanche-bague-2", 
  dimension:"3.3x3.5x3", 
  material:"argent", 
  size:"55", 
@@ -61,7 +61,7 @@ const products = [
 }, 
 {
  ref:"54",
- id:"", 
+ id:"bleu-bague-6", 
  dimension:"3.3x2.3x3", 
  material:"argent", 
  size:"54", 
@@ -101,7 +101,7 @@ const products = [
 }, 
 {
  ref:"13",
- id:"", 
+ id:"argent-bague-1", 
  dimension:"5.5x3x2.5", 
  material:"argent", 
  size:"54", 
@@ -111,7 +111,7 @@ const products = [
 }, 
 {
  ref:"28",
- id:"", 
+ id:"blanche-bague-8", 
  dimension:"4.5x2.8x2.3", 
  material:"argent", 
  size:"54", 
@@ -121,7 +121,7 @@ const products = [
 }, 
 {
  ref:"39",
- id:"", 
+ id:"pyrite-bague-4", 
  dimension:"5x3.5x2", 
  material:"argent", 
  size:"55", 
@@ -171,7 +171,7 @@ const products = [
 }, 
 {
  ref:"3",
- id:"", 
+ id:"blanche-bague-1", 
  dimension:"4x4x3", 
  material:"bronze", 
  size:"56", 
@@ -181,7 +181,7 @@ const products = [
 }, 
 {
  ref:"30",
- id:"", 
+ id:"blanche-bague-6", 
  dimension:"4.5x2.5x2.2", 
  material:"argent", 
  size:"55", 
@@ -191,7 +191,7 @@ const products = [
 }, 
 {
  ref:"27",
- id:"", 
+ id:"blanche-bague-7", 
  dimension:"4.8x2.5x2.5", 
  material:"argent", 
  size:"55", 
@@ -201,7 +201,7 @@ const products = [
 }, 
 {
  ref:"25",
- id:"", 
+ id:"argent-bague-2", 
  dimension:"4.8x3x2.6", 
  material:"argent", 
  size:"56", 
@@ -231,7 +231,7 @@ const products = [
 }, 
 {
  ref:"192",
- id:"", 
+ id:"blanche-bague-4", 
  dimension:"3x2.5x5", 
  material:"argent", 
  size:"53", 
@@ -241,7 +241,7 @@ const products = [
 }, 
 {
  ref:"193",
- id:"", 
+ id:"violette-bague-1", 
  dimension:"3.5x2.3x3.5", 
  material:"argent ", 
  size:"56", 
@@ -251,7 +251,7 @@ const products = [
 }, 
 {
  ref:"191",
- id:"", 
+ id:"blanche-bague-3", 
  dimension:"3x3x3.5", 
  material:"argent", 
  size:"53", 
@@ -271,7 +271,7 @@ const products = [
 }, 
 {
  ref:"189",
- id:"", 
+ id:"blanche-bague-5", 
  dimension:"3.2x3x4", 
  material:"argent", 
  size:"58", 
@@ -341,7 +341,7 @@ const products = [
 }, 
 {
  ref:"208",
- id:"", 
+ id:"argent-bague-6", 
  dimension:"3x2.4x2.5", 
  material:"argent", 
  size:"67", 
@@ -381,7 +381,7 @@ const products = [
 }, 
 {
  ref:"209",
- id:"", 
+ id:"bleu-bague-7", 
  dimension:"3.7x3.9x2.7", 
  material:"argent", 
  size:"54", 
@@ -401,7 +401,7 @@ const products = [
 }, 
 {
  ref:"217",
- id:"", 
+ id:"verte-bague-1", 
  dimension:"2x2x1", 
  material:"argent", 
  size:"59", 
@@ -411,7 +411,7 @@ const products = [
 }, 
 {
  ref:"181",
- id:"", 
+ id:"noir-bague-1", 
  dimension:"3.5x2.5x1.5", 
  material:"argent", 
  size:"58", 
@@ -641,7 +641,7 @@ const products = [
 }, 
 {
  ref:"231",
- id:"", 
+ id:"bleu-bague-3", 
  dimension:"3.5x2.5x3", 
  material:"argent", 
  size:"58", 
@@ -651,7 +651,7 @@ const products = [
 }, 
 {
  ref:"227",
- id:"", 
+ id:"pyrite-bague-5", 
  dimension:"4.2x3x2.5", 
  material:"argent", 
  size:"56", 
@@ -681,7 +681,7 @@ const products = [
 }, 
 {
  ref:"229",
- id:"", 
+ id:"pyrite-bague-3", 
  dimension:"3.5x3.3x2", 
  material:"argent", 
  size:"54", 
@@ -701,7 +701,7 @@ const products = [
 }, 
 {
  ref:"",
- id:"", 
+ id:"bleu-bague-1", 
  dimension:"3.3x2.7x3.5", 
  material:"argent", 
  size:"58", 
@@ -771,7 +771,7 @@ const products = [
 }, 
 {
  ref:"243",
- id:"", 
+ id:"argent-bague-4", 
  dimension:"", 
  material:"argent", 
  size:"", 
@@ -781,7 +781,7 @@ const products = [
 }, 
 {
  ref:"244",
- id:"", 
+ id:"pyrite-bague-2", 
  dimension:"3.8x2.5x2.5", 
  material:"argent", 
  size:"59", 
@@ -791,7 +791,7 @@ const products = [
 }, 
 {
  ref:"245",
- id:"", 
+ id:"argent-bague-5", 
  dimension:"3.5x3x3", 
  material:"argent", 
  size:"59", 
@@ -801,7 +801,7 @@ const products = [
 }, 
 {
  ref:"246",
- id:"", 
+ id:"pyrite-bague-1", 
  dimension:"3.5x2.5x2.2", 
  material:"argent", 
  size:"60", 
@@ -811,7 +811,7 @@ const products = [
 }, 
 {
  ref:"247",
- id:"", 
+ id:"argent-bague-3", 
  dimension:"3.5x2.5x2", 
  material:"argent", 
  size:"59", 
@@ -881,7 +881,7 @@ const products = [
 }, 
 {
  ref:"38",
- id:"", 
+ id:"verte-bague-2", 
  dimension:"3x3x2", 
  material:"argent", 
  size:"54", 
@@ -898,6 +898,16 @@ const products = [
  stone:"2 azurite brute",
  treatment:"plaque or", 
  weight:"151.9" 
+}, 
+{
+ ref:"26",
+ id:"bleu-bague-4", 
+ dimension:"3.3x2.3x3", 
+ material:"argent", 
+ size:"54", 
+ stone:"lapis lazuli",
+ treatment:"plaque or", 
+ weight:"27.5" 
 }, 
 
  ] 

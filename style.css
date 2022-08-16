@@ -158,7 +158,7 @@ header>ul>li>a>img:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60vw;
+    width: 70vw;
     gap: var(--gap-title-content);
 }
 
@@ -186,8 +186,8 @@ header>ul>li>a>img:hover {
 }
 
 .ligne>img{
-    width: min(200px, 20vw);
-    height: min(200px, 20vw);
+    width: min(250px, 20vw);
+    height: min(250px, 20vw);
     object-fit: cover;
 }
 
@@ -231,8 +231,8 @@ header>ul>li>a>img:hover {
 /* List of jewels */
 
 .list>img {
-    width: min(200px, 30vw);
-    height: min(200px, 30vw);
+    width: min(250px, 30vw);
+    height: min(250px, 30vw);
     object-fit: cover;
 }
 

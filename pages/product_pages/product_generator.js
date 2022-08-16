@@ -68,3 +68,14 @@ const treatment = document.querySelector('.treatment').textContent
 const stone = document.querySelector('.stone').textContent
 
 description.textContent = `${text[1]} en ${material}, traitee en ${treatment}, garnis des pierres ${stone}`
+
+const images = Array.from(document.querySelectorAll('.product-images>img'));
+const demoImages = Array.from(document.querySelectorAll('.demo'))
+const numImages = 3
+console.log(images)
+
+for (let k = 0; k<numImages; k++ ){
+  images[k].src = `../../img/bijoux/ligne-${text[0]}/${text[1]}-${text[2]}${k+1}.jpg`
+  demo[k].src= `../../img/bijoux/ligne-${text[0]}/${text[1]}-${text[2]}${k+1}.jpg`
+}
+
