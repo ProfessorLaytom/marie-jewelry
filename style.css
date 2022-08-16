@@ -213,9 +213,17 @@ header>ul>li>a>img:hover {
         width: 90vw;
     }
 
+    .ligne-container{
+        justify-content: space-evenly;
+    }
+
+    .ligne{
+        margin: 10px;
+    }
+
     .ligne>img{
-        width: 30vw;
-        height: auto;
+        width: 35vw;
+        height: 35vw;
     }
 
     .ligne-container{
@@ -796,8 +804,6 @@ footer p{
 
 /* menu for mobile phones */
 @media (max-width: 700px) {
-    
-
     .logo>a>img{
         height: 7vh;
         width: auto;
