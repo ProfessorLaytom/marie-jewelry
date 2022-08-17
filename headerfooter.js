@@ -112,7 +112,7 @@ const makeHeaderFooter = (path) => {
         code += '\t\t\t</ul>\n';
         code += '\t\t</div>\n';
         code += '\t\t<p>© MARIE-ALEXANDRINE YVERNAULT 2022</p>\n';
-        code += '\t\t<p>Made with ❤️ by <a href="https://github.com/ProfessorLaytom">Tom Dangleterre</a></p>\n';
+        code += '\t\t<p>Made with ❤️ by <a href="https://github.com/ProfessorLaytom">Tom Dangleterre</a> & Celia Bidaud</p>\n';
         return code;
     }
     let x = window.matchMedia("(max-width: 700px)")
