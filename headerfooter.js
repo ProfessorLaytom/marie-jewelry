@@ -79,10 +79,10 @@ const makeHeaderFooter = (path) => {
             `            <a href="${path}index.html"><img src="${path}img/logo.png" alt="Logo"></a>` + 
             '          </div>' + 
             '          <div class="menu-items">' + 
-            `            <li><a href="${path}index.html">Page principale</a></li>` + 
-            `            <li><a href="${path}pages/lignes.html">Toutes nos lignes</a></li>` + 
+            `            <li><a href="${path}index.html">Accueil</a></li>` + 
+            `            <li><a href="${path}pages/lignes.html">Nos lignes</a></li>` + 
             `            <li><a href="${path}pages/bijoux.html">Bijoux</a></li>` + 
-            `            <li><a href="${path}pages/gallery.html">Gallerie</a></li>` + 
+            `            <li><a href="${path}pages/gallery.html">Galerie</a></li>` + 
             `            <li><a href="${path}pages/about.html">A propos</a></li>` + 
             `            <li><a href="${path}pages/contact.html" class="link">Contact</a></li>` +
             `            <li><a href="${path}en/pages/lignes.html">English</a></li>` +  
@@ -102,14 +102,6 @@ const makeHeaderFooter = (path) => {
         code += '\t\t\t\t\talt="instagram logo"> marie_alexandrine_yvernault</a>\n';
         code += '\t\t\t\t</div>\n';
         code += '\t\t\t</div>\n';
-        code += '\t\t\t<ul>\n';
-        code += '\t\t\t\t<li>Menu</li>\n';
-        code += `\t\t\t\t<li><a href="${path}pages/lignes.html" class="link">Lignes</a></li>\n`;
-        code += `\t\t\t\t<li><a href="${path}pages/bijoux.html" class="link">Bijoux</a></li>\n`;
-        code += `\t\t\t\t<li><a href="${path}pages/gallery.html" class="link">Gallerie</a></li>\n`;
-        code += `\t\t\t\t<li><a href="${path}pages/about.html" class="link">A propos</a></li>\n`;
-        code += `\t\t\t\t<li><a href="${path}pages/contact.html" class="link">Contact</a></li>\n`;
-        code += '\t\t\t</ul>\n';
         code += '\t\t</div>\n';
         code += '\t\t<p>© MARIE-ALEXANDRINE YVERNAULT 2022</p>\n';
         code += '\t\t<p>Made with ❤️ by <a href="https://github.com/ProfessorLaytom">Tom Dangleterre</a> & Celia Bidaud</p>\n';

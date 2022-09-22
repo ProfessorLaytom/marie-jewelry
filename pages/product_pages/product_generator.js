@@ -7,7 +7,8 @@ showMore.addEventListener('click', revealCharacteristics)
 
 const productName = document.querySelector('h2');
 const text = productName.textContent.split('-')
-productName.textContent = 'Ligne ' + text[0] +', ' + text[1] + ' n°' +text[2]
+productName.style.display = 'none';
+
 
 function revealCharacteristics() {
     const more = document.querySelector(".more");
@@ -67,7 +68,7 @@ const material = document.querySelector('.material').textContent
 const treatment = document.querySelector('.treatment').textContent
 const stone = document.querySelector('.stone').textContent
 
-description.textContent = `${text[1]} en ${material}, traitee en ${treatment}, garnis des pierres ${stone}`
+description.textContent = `${text[1]} en ${material}, avec un traitement ${treatment}, ornée de ${stone}`
 
 const images = Array.from(document.querySelectorAll('.product-images>img'));
 const demoImages = Array.from(document.querySelectorAll('.demo'))

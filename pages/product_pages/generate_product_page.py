@@ -24,15 +24,15 @@ with open('./products.js', mode='w') as js:
                 print(keys)
                 line_count += 1
             else:
-                [ref, id, dimension, material, size, stone, treatment, weight] = row
+                [ref, id, dimension, material, size, stone, treatment, weight, name, price] = row
                 output = f'{id}.html'
                 subs = jinja2.Environment( 
-                loader=jinja2.FileSystemLoader('./')).get_template('product_template.html').render(ref=ref,dimension=dimension, material=material, size=size, stone=stone, treatment=treatment, weight=weight, product_name = id) 
+                loader=jinja2.FileSystemLoader('./')).get_template('product_template.html').render(ref=ref,dimension=dimension, material=material, size=size, stone=stone, treatment=treatment, weight=weight, product_name = id, name=name, price=price) 
                 with open(output, 'w') as f : 
                     f.truncate(0)
                     f.write(subs)
                 #now we update the products array with a new object
-                jsOutput += (f'{{\n {keys[0]}:"{ref}",\n {keys[1]}:"{id}", \n {keys[2]}:"{dimension}", \n {keys[3]}:"{material}", \n {keys[4]}:"{size}", \n {keys[5]}:"{stone}",\n {keys[6]}:"{treatment}", \n {keys[7]}:"{weight}" \n}}, \n')
+                jsOutput += (f'{{\n {keys[0]}:"{ref}",\n {keys[1]}:"{id}", \n {keys[2]}:"{dimension}", \n {keys[3]}:"{material}", \n {keys[4]}:"{size}", \n {keys[5]}:"{stone}",\n {keys[6]}:"{treatment}", \n {keys[7]}:"{weight}", \n {keys[8]}:"{name}", \n {keys[9]}:"{price}" \n}}, \n')
         jsOutput += f'\n ] \n export default products'
         js.write(jsOutput)
         print(f'proccessed {line_count} lines.')

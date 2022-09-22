@@ -7,7 +7,9 @@ const products = [
  size:"55", 
  stone:"azurite et diamant noir",
  treatment:"plaque or", 
- weight:"47" 
+ weight:"47", 
+ name:"test", 
+ price:"500" 
 }, 
 {
  ref:"41",
@@ -17,7 +19,9 @@ const products = [
  size:"57", 
  stone:"lapis lazuli",
  treatment:"plaque or", 
- weight:"36.2" 
+ weight:"36.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"40",
@@ -27,7 +31,9 @@ const products = [
  size:"56", 
  stone:"tourmaline",
  treatment:"plaque or", 
- weight:"36.6" 
+ weight:"36.6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"31",
@@ -37,7 +43,9 @@ const products = [
  size:"55", 
  stone:"agate bleu",
  treatment:"plaque or", 
- weight:"41.3" 
+ weight:"41.3", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"183",
@@ -47,7 +55,9 @@ const products = [
  size:"58", 
  stone:"aigue marine",
  treatment:"plaque or", 
- weight:"33.8" 
+ weight:"33.8", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"187",
@@ -57,7 +67,9 @@ const products = [
  size:"55", 
  stone:"aigue marine brut",
  treatment:"plaque or", 
- weight:"44" 
+ weight:"44", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"54",
@@ -67,7 +79,9 @@ const products = [
  size:"54", 
  stone:"lapis lazuli",
  treatment:"plaque or", 
- weight:"27.5" 
+ weight:"27.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"57",
@@ -77,7 +91,9 @@ const products = [
  size:"57", 
  stone:"lapis lazuli",
  treatment:"plaque or ", 
- weight:"36.2" 
+ weight:"36.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"33",
@@ -87,7 +103,9 @@ const products = [
  size:"55", 
  stone:"malachite",
  treatment:"plaque or", 
- weight:"30.5" 
+ weight:"30.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"14",
@@ -97,7 +115,9 @@ const products = [
  size:"54", 
  stone:"cristal de roche",
  treatment:"argente", 
- weight:"58.6" 
+ weight:"58.6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"13",
@@ -107,7 +127,9 @@ const products = [
  size:"54", 
  stone:"cristal de roche",
  treatment:"argente", 
- weight:"48.5" 
+ weight:"48.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"28",
@@ -117,7 +139,9 @@ const products = [
  size:"54", 
  stone:"cristal de roche",
  treatment:"plaque or", 
- weight:"46.7" 
+ weight:"46.7", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"39",
@@ -127,7 +151,9 @@ const products = [
  size:"55", 
  stone:"pyrite",
  treatment:"plaque or", 
- weight:"53.1" 
+ weight:"53.1", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"11",
@@ -137,7 +163,9 @@ const products = [
  size:"54", 
  stone:"amethyste",
  treatment:"plaque or", 
- weight:"51.4" 
+ weight:"51.4", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"45",
@@ -147,7 +175,9 @@ const products = [
  size:"54", 
  stone:"turquoise",
  treatment:"plaque or", 
- weight:"30.6" 
+ weight:"30.6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"29",
@@ -157,7 +187,9 @@ const products = [
  size:"55", 
  stone:"amethyste",
  treatment:"plaque or", 
- weight:"34.8" 
+ weight:"34.8", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"188",
@@ -167,7 +199,9 @@ const products = [
  size:"51", 
  stone:"kunzite",
  treatment:"plaque or", 
- weight:"40" 
+ weight:"40", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"3",
@@ -177,7 +211,9 @@ const products = [
  size:"56", 
  stone:"quartz rutile",
  treatment:"plaque or", 
- weight:"38.7" 
+ weight:"38.7", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"30",
@@ -187,7 +223,9 @@ const products = [
  size:"55", 
  stone:"cristal de roche",
  treatment:"plaque or ", 
- weight:"41.1" 
+ weight:"41.1", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"27",
@@ -197,7 +235,9 @@ const products = [
  size:"55", 
  stone:"cristal de roche",
  treatment:"plaque or", 
- weight:"40.5" 
+ weight:"40.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"25",
@@ -207,7 +247,9 @@ const products = [
  size:"56", 
  stone:"cristal de roche",
  treatment:"argente", 
- weight:"45.3" 
+ weight:"45.3", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"182",
@@ -217,7 +259,9 @@ const products = [
  size:"58", 
  stone:"malachite",
  treatment:"plaque or", 
- weight:"27" 
+ weight:"27", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"179",
@@ -227,7 +271,9 @@ const products = [
  size:"57", 
  stone:"pierre de soleil",
  treatment:"plaque or", 
- weight:"47" 
+ weight:"47", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"192",
@@ -237,7 +283,9 @@ const products = [
  size:"53", 
  stone:"agate cristallisee",
  treatment:"plaque or", 
- weight:"61" 
+ weight:"61", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"193",
@@ -247,7 +295,9 @@ const products = [
  size:"56", 
  stone:"rubis + pierre de lune",
  treatment:"plaque or", 
- weight:"54" 
+ weight:"54", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"191",
@@ -257,7 +307,9 @@ const products = [
  size:"53", 
  stone:"agate cristallisee",
  treatment:"plaque or", 
- weight:"58" 
+ weight:"58", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"190",
@@ -267,7 +319,9 @@ const products = [
  size:"58", 
  stone:"obsidienne doree",
  treatment:"plaque or", 
- weight:"60" 
+ weight:"60", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"189",
@@ -277,7 +331,9 @@ const products = [
  size:"58", 
  stone:"agate cristallisee",
  treatment:"plaque or", 
- weight:"56" 
+ weight:"56", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"204",
@@ -287,7 +343,9 @@ const products = [
  size:"61", 
  stone:"dioptase + emeraude",
  treatment:"plaque or", 
- weight:"34" 
+ weight:"34", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"205",
@@ -297,7 +355,9 @@ const products = [
  size:"60", 
  stone:"dioptase + emeraude",
  treatment:"plaque or", 
- weight:"37" 
+ weight:"37", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"206",
@@ -307,7 +367,9 @@ const products = [
  size:"59", 
  stone:"dioptase + emeraude",
  treatment:"plaque or", 
- weight:"36" 
+ weight:"36", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"212",
@@ -317,7 +379,9 @@ const products = [
  size:"54", 
  stone:"peidot 4.68 CT + emeraude",
  treatment:"plaque or", 
- weight:"26" 
+ weight:"26", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"210",
@@ -327,7 +391,9 @@ const products = [
  size:"54", 
  stone:"amethyste verte 18.22CT + emeraude",
  treatment:"plaque or", 
- weight:"28" 
+ weight:"28", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"211",
@@ -337,7 +403,9 @@ const products = [
  size:"58", 
  stone:"amethyste verte 18.22CT + emeraude",
  treatment:"plaque or", 
- weight:"40" 
+ weight:"40", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"208",
@@ -347,7 +415,9 @@ const products = [
  size:"67", 
  stone:"aigue marine 13CT + diamant taille rose",
  treatment:"argent", 
- weight:"37" 
+ weight:"37", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"214",
@@ -357,7 +427,9 @@ const products = [
  size:"57", 
  stone:"grenat noir + diamant noir",
  treatment:"plaque or", 
- weight:"57" 
+ weight:"57", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"215",
@@ -367,7 +439,9 @@ const products = [
  size:"57", 
  stone:"topaze rose 4.85CT + rubis",
  treatment:"plaque or", 
- weight:"46" 
+ weight:"46", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"207",
@@ -377,7 +451,9 @@ const products = [
  size:"61", 
  stone:"grenat noir + diamant",
  treatment:"plaque or", 
- weight:"57" 
+ weight:"57", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"209",
@@ -387,7 +463,9 @@ const products = [
  size:"54", 
  stone:"aigue marine 81CT + aigue marine cabochon",
  treatment:"plaque or", 
- weight:"63" 
+ weight:"63", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"216",
@@ -397,7 +475,9 @@ const products = [
  size:"60", 
  stone:"signature diamant noir",
  treatment:"plaque or", 
- weight:"10" 
+ weight:"10", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"217",
@@ -407,7 +487,9 @@ const products = [
  size:"59", 
  stone:"signature emeraude",
  treatment:"plaque or", 
- weight:"6" 
+ weight:"6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"181",
@@ -417,7 +499,9 @@ const products = [
  size:"58", 
  stone:"pyrite",
  treatment:"plaque or", 
- weight:"41.2" 
+ weight:"41.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"200",
@@ -427,7 +511,9 @@ const products = [
  size:"", 
  stone:"8 amethyste 2 calcedoine 1 tourmanline 1 aigue marine",
  treatment:"plaque or", 
- weight:"87.3" 
+ weight:"87.3", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"196",
@@ -437,7 +523,9 @@ const products = [
  size:"", 
  stone:"7 tourmaline cabochon 55CT",
  treatment:"plaque or", 
- weight:"132.1" 
+ weight:"132.1", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"155 ",
@@ -447,7 +535,9 @@ const products = [
  size:"", 
  stone:"rubis chatouillant",
  treatment:"plaque or", 
- weight:"179.3" 
+ weight:"179.3", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"35",
@@ -457,7 +547,9 @@ const products = [
  size:"", 
  stone:"lapis lazuli",
  treatment:"plaque or", 
- weight:"216.5" 
+ weight:"216.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"63",
@@ -467,7 +559,9 @@ const products = [
  size:"", 
  stone:"",
  treatment:"plaque or", 
- weight:"135.3" 
+ weight:"135.3", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"195",
@@ -477,7 +571,9 @@ const products = [
  size:"", 
  stone:"4 calcedoine 3 amethystes 2 tourmalines",
  treatment:"plaque or", 
- weight:"" 
+ weight:"", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"202",
@@ -487,7 +583,9 @@ const products = [
  size:"", 
  stone:"grenat",
  treatment:"plaque or", 
- weight:"" 
+ weight:"", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"201",
@@ -497,7 +595,9 @@ const products = [
  size:"", 
  stone:"azurite",
  treatment:"plaque or", 
- weight:"" 
+ weight:"", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"199",
@@ -507,7 +607,9 @@ const products = [
  size:"", 
  stone:"tourmaline",
  treatment:"plaque or", 
- weight:"" 
+ weight:"", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"153",
@@ -517,7 +619,9 @@ const products = [
  size:"", 
  stone:"2 amethystes 1 citrine",
  treatment:"plaque or", 
- weight:"173.8" 
+ weight:"173.8", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"96",
@@ -527,7 +631,9 @@ const products = [
  size:"", 
  stone:"lapis lazuli",
  treatment:"plaque or", 
- weight:"207.6" 
+ weight:"207.6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"53+61",
@@ -537,7 +643,9 @@ const products = [
  size:"", 
  stone:"pyrite",
  treatment:"plaque or", 
- weight:"176.5" 
+ weight:"176.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"194",
@@ -547,7 +655,9 @@ const products = [
  size:"", 
  stone:"5 grenat noir + diamant noir",
  treatment:"plaque or", 
- weight:"264" 
+ weight:"264", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"197",
@@ -557,7 +667,9 @@ const products = [
  size:"", 
  stone:"dioptase + emeraude",
  treatment:"plaque or", 
- weight:"125" 
+ weight:"125", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"64+218",
@@ -567,7 +679,9 @@ const products = [
  size:"", 
  stone:"tranche d'amethyste 79.95CT + diamant noir",
  treatment:"plaque or", 
- weight:"157.2" 
+ weight:"157.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"18+220 ",
@@ -577,7 +691,9 @@ const products = [
  size:"", 
  stone:"dioptase + emeraude",
  treatment:"plaque or", 
- weight:"236.8" 
+ weight:"236.8", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"64+219",
@@ -587,7 +703,9 @@ const products = [
  size:"", 
  stone:"azurite + diamant noir",
  treatment:"plaque or", 
- weight:"229.2" 
+ weight:"229.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"158+222",
@@ -597,7 +715,9 @@ const products = [
  size:"", 
  stone:"grenat noir + diamant",
  treatment:"plaque or", 
- weight:"197.5" 
+ weight:"197.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"158+223",
@@ -607,7 +727,9 @@ const products = [
  size:"", 
  stone:"grenat noir + diamant",
  treatment:"plaque or", 
- weight:"197.9" 
+ weight:"197.9", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"18+221",
@@ -617,7 +739,9 @@ const products = [
  size:"", 
  stone:"dioptase + emeraude",
  treatment:"plaque or", 
- weight:"262.4" 
+ weight:"262.4", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"000",
@@ -627,7 +751,9 @@ const products = [
  size:"", 
  stone:"diamant noir",
  treatment:"plaque or", 
- weight:"192.2" 
+ weight:"192.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"234",
@@ -637,7 +763,9 @@ const products = [
  size:"58", 
  stone:"tourmaline 38.16 CT + aigue-marine ",
  treatment:"plaque or", 
- weight:"80" 
+ weight:"80", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"231",
@@ -647,7 +775,9 @@ const products = [
  size:"58", 
  stone:"azurite + aigue-marine",
  treatment:"plaque or", 
- weight:"40" 
+ weight:"40", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"227",
@@ -657,7 +787,9 @@ const products = [
  size:"56", 
  stone:"pyrite + diamant noir",
  treatment:"plaque or", 
- weight:"46" 
+ weight:"46", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"225",
@@ -667,7 +799,9 @@ const products = [
  size:"59", 
  stone:"pyrite + diamant noir",
  treatment:"plaque or", 
- weight:"46" 
+ weight:"46", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"226",
@@ -677,7 +811,9 @@ const products = [
  size:"57", 
  stone:"pyrite + diamant noir",
  treatment:"plaque or", 
- weight:"40" 
+ weight:"40", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"229",
@@ -687,7 +823,9 @@ const products = [
  size:"54", 
  stone:"proustite + diamant noir",
  treatment:"plaque or", 
- weight:"38" 
+ weight:"38", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"223",
@@ -697,7 +835,9 @@ const products = [
  size:"58", 
  stone:"quartz",
  treatment:"plaque or", 
- weight:"37" 
+ weight:"37", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"",
@@ -707,7 +847,9 @@ const products = [
  size:"58", 
  stone:"aigue marine brute + saphir",
  treatment:"plaque or", 
- weight:"50" 
+ weight:"50", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"243",
@@ -717,7 +859,9 @@ const products = [
  size:"56", 
  stone:"malachite + emeraude",
  treatment:"plaque or", 
- weight:"34" 
+ weight:"34", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"239",
@@ -727,7 +871,9 @@ const products = [
  size:"", 
  stone:"dioptase + 8 lolites",
  treatment:"plaque or", 
- weight:"289" 
+ weight:"289", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"240",
@@ -737,7 +883,9 @@ const products = [
  size:"", 
  stone:"amethyste",
  treatment:"plaque or", 
- weight:"318.2" 
+ weight:"318.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"241",
@@ -747,7 +895,9 @@ const products = [
  size:"", 
  stone:"3 dioptases",
  treatment:"plaque or", 
- weight:"299.6" 
+ weight:"299.6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"242",
@@ -757,7 +907,9 @@ const products = [
  size:"", 
  stone:"malachites",
  treatment:"plaque or", 
- weight:"118.1" 
+ weight:"118.1", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"238",
@@ -767,7 +919,9 @@ const products = [
  size:"", 
  stone:"malachite",
  treatment:"plaque or", 
- weight:"152.3" 
+ weight:"152.3", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"243",
@@ -777,7 +931,9 @@ const products = [
  size:"", 
  stone:"",
  treatment:"argent", 
- weight:"" 
+ weight:"", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"244",
@@ -787,7 +943,9 @@ const products = [
  size:"59", 
  stone:"pyrite",
  treatment:"argent", 
- weight:"36.5" 
+ weight:"36.5", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"245",
@@ -797,7 +955,9 @@ const products = [
  size:"59", 
  stone:"amethyste verte",
  treatment:"argent", 
- weight:"45.2" 
+ weight:"45.2", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"246",
@@ -807,7 +967,9 @@ const products = [
  size:"60", 
  stone:"pyrite",
  treatment:"argent", 
- weight:"42.1" 
+ weight:"42.1", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"247",
@@ -817,7 +979,9 @@ const products = [
  size:"59", 
  stone:"tourmaline + aigue-marine brute",
  treatment:"argent", 
- weight:"33.8" 
+ weight:"33.8", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"236",
@@ -827,7 +991,9 @@ const products = [
  size:"", 
  stone:"agate cristallisee",
  treatment:"plaque or", 
- weight:"" 
+ weight:"", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"235",
@@ -837,7 +1003,9 @@ const products = [
  size:"", 
  stone:"agate",
  treatment:"plaque or", 
- weight:"179.8" 
+ weight:"179.8", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"251 B",
@@ -847,7 +1015,9 @@ const products = [
  size:"", 
  stone:"malachite",
  treatment:"plaque or", 
- weight:"23.8" 
+ weight:"23.8", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"251 A",
@@ -857,7 +1027,9 @@ const products = [
  size:"", 
  stone:"malachite",
  treatment:"plaque or", 
- weight:"20.4" 
+ weight:"20.4", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"253",
@@ -867,7 +1039,9 @@ const products = [
  size:"", 
  stone:"agate cristallisee",
  treatment:"plaque or", 
- weight:"177.6" 
+ weight:"177.6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"254",
@@ -877,7 +1051,9 @@ const products = [
  size:"", 
  stone:"obsidienne",
  treatment:"plaque or", 
- weight:"163.3" 
+ weight:"163.3", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"38",
@@ -887,7 +1063,9 @@ const products = [
  size:"54", 
  stone:"amethyste verte",
  treatment:"plaque or", 
- weight:"36.6" 
+ weight:"36.6", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"198",
@@ -897,7 +1075,9 @@ const products = [
  size:"", 
  stone:"2 azurite brute",
  treatment:"plaque or", 
- weight:"151.9" 
+ weight:"151.9", 
+ name:"", 
+ price:"" 
 }, 
 {
  ref:"26",
@@ -907,7 +1087,9 @@ const products = [
  size:"54", 
  stone:"lapis lazuli",
  treatment:"plaque or", 
- weight:"27.5" 
+ weight:"27.5", 
+ name:"", 
+ price:"" 
 }, 
 
  ] 
