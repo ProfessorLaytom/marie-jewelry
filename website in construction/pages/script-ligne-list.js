@@ -1,90 +1,56 @@
 import makeHeaderFooter from "../headerfooter.js";
+import products from './product_pages/products.js';
+
 
 makeHeaderFooter('../')
 const ligneContainer = document.querySelector('.ligne-container');
 
 const getNumberOfJewelInLigne = (ligne, bijoux) => {
     // returns the number of bijoux for each ligne
-    if (ligne == 'bleu') {
+    if (ligne == 'altair') {
         switch (bijoux) {
             case 'bague':
-                return 8
+                return 7
             case 'manchette':
-                return 0
+                return 3
             case 'collier':
-                return 0
+                return 1
             case 'bracelet':
                 return 0
         }
     }
-    if (ligne == 'blanche') {
-        switch (bijoux) {
-            case 'bague':
-                return 8
-            case 'manchette':
-                return 0
-            case 'collier':
-                return 0
-            case 'bracelet':
-                return 0
-        }
-    }
-    if (ligne == 'argent') {
-        switch (bijoux) {
-            case 'bague':
-                return 6
-            case 'manchette':
-                return 0
-            case 'collier':
-                return 0
-            case 'bracelet':
-                return 0
-        }
-    }
-    if (ligne == 'noire') {
+    if (ligne == 'antares') {
         switch (bijoux) {
             case 'bague':
                 return 1
             case 'manchette':
-                return 0
+                return 3
             case 'collier':
-                return 0
+                return 1
             case 'bracelet':
                 return 0
         }
     }
-    if (ligne == 'pyrite') {
+    if (ligne == 'adama') {
         switch (bijoux) {
             case 'bague':
-                return 5
+                return 4
             case 'manchette':
-                return 0
+                return 4
             case 'collier':
-                return 0
+                return 7
             case 'bracelet':
                 return 0
         }
     }
-    if (ligne == 'verte') {
+    if (ligne == 'bellatrix') {
         switch (bijoux) {
             case 'bague':
+                return 11
+            case 'manchette':
                 return 2
-            case 'manchette':
-                return 0
             case 'collier':
-                return 0
-            case 'bracelet':
-                return 0
-        }
-    }
-    if (ligne == 'violette') {
-        switch (bijoux) {
-            case 'bague':
-                return 1
-            case 'manchette':
-                return 0
-            case 'collier':
-                return 0
+                return 3
             case 'bracelet':
                 return 0
         }
@@ -105,8 +71,15 @@ const pictureCollector = (ligne, bijoux) => {
         div.classList.add('list');
         const img = document.createElement('img');
         img.src = folder + bijoux + '-' + k+'1.jpg';
+        let name = ''
+        for (let j = 0; j <= products.length-1;j++){
+            console.log(j)
+            if (products[j]['id'] == `${ligne}-${bijoux}-${k}`){
+                name = products[j]['name']
+            }
+        }
         const legend1 = document.createElement('h3')
-        legend1.textContent =  `${bijoux} n°${k}`
+        legend1.textContent =  name
         div.appendChild(img);
         div.appendChild(legend1)
         a.appendChild(div)
@@ -114,11 +87,11 @@ const pictureCollector = (ligne, bijoux) => {
     }
 }
 
-const bijoux = ['manchette', 'bracelet', 'collier', 'boucle', 'bague'];
+const bijoux = ['collier', 'bague', 'manchette'];
 //checking for the jewel to display 
 const ligneDiv = document.querySelector('.lignes>h2');
 //removes the 'Nos ' and the 's' at the end (plural)
-const ligneName = ligneDiv.textContent.replace('Ligne ', '');
+const ligneName = ligneDiv.textContent.replace('Ligne ', '').toLowerCase().replace('ï', 'i');
 console.log(ligneName)
 //creates the cards for a particular bijoux type in each ligne.
 bijoux.forEach(x => pictureCollector(ligneName, x))

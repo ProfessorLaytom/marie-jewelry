@@ -15,10 +15,10 @@ function revealCharacteristics() {
     const btnText = document.querySelector(".show-more");
   
     if (more.classList.contains('hidden')) {
-      btnText.innerHTML = "Show less"; 
+      btnText.innerHTML = "Moins d'informations"; 
       more.classList.remove('hidden')
     } else {
-      btnText.innerHTML = "Show more info"; 
+      btnText.innerHTML = "Plus d'information"; 
       more.classList.add('hidden')
     }
   }
@@ -68,7 +68,7 @@ const material = document.querySelector('.material').textContent
 const treatment = document.querySelector('.treatment').textContent
 const stone = document.querySelector('.stone').textContent
 
-description.textContent = `${text[1]} en ${material}, avec un traitement ${treatment}, ornée de ${stone}`
+description.textContent = `${text[1]} en ${material}, ${treatment}, ornée de ${stone}`.replace(text[1].charAt(0), text[1].charAt(0).toUpperCase())
 
 const images = Array.from(document.querySelectorAll('.product-images>img'));
 const demoImages = Array.from(document.querySelectorAll('.demo'))

@@ -173,7 +173,7 @@ header>ul>li>a>img:hover {
     display: flex;
     row-gap: 4em;
     flex-wrap: wrap;
-    width: 100%;
+    width: 60%;
     justify-content: center;
 }
 
