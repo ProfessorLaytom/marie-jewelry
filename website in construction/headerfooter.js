@@ -10,13 +10,10 @@ const makeHeaderFooter = (path) => {
         code += `\t\t\t<li class="dropdown-menu"><a href="${path}pages/lignes.html" class="link">Lignes</a>\n`;
         code += '\t\t\t\t<div class="dropdown">\n';
         code += `\t\t\t\t\t<a href="${path}pages/lignes.html">Toutes nos lignes</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-pyrite.html">Ligne pyrite</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-bleu.html">Ligne bleu</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-argent.html">Ligne argent</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-blanche.html">Ligne blanche</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-verte.html">Ligne verte</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-noire.html">Ligne noire</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-violette.html">Ligne violette</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-adama.html">Ligne Adama</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-altair.html">Ligne Altaïr</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-antares.html">Ligne Antares</a>\n`;
+        code += `\t\t\t\t\t<a href="${path}pages/list-ligne-bellatrix.html">Ligne Bellatrix</a>\n`;
         code += '\t\t\t\t</div>\n';
         code += '\t\t\t</li>\n';
         code += `\t\t\t<li class="dropdown-menu"><a href="${path}pages/bijoux.html" class="link">Bijoux</a>\n`;
@@ -25,9 +22,8 @@ const makeHeaderFooter = (path) => {
         code += `\t\t\t\t\t<a href="${path}pages/list_bagues.html">Bagues</a>\n`;
         code += `\t\t\t\t\t<a href="${path}pages/list_colliers.html">Colliers</a>\n`;
         code += `\t\t\t\t\t<a href="${path}pages/list_manchettes.html">Manchettes</a>\n`;
-        code += `\t\t\t\t\t<a href="${path}pages/list_bracelets.html">Bracelets</a>\n`;
         code += '\t\t\t\t</div></li>\n';
-        code += `\t\t\t<li><a href="${path}pages/gallery.html" class="link">Gallerie</a></li>\n`
+        // code += `\t\t\t<li><a href="${path}pages/gallery.html" class="link">Gallerie</a></li>\n`
         code += '\t\t</ul>\n';
         code += `\t\t<a href="${path}index.html"><img src="${path}img/logo.png" alt="Logo"></a>  <!--Logo-->\n`;
         code += '\t\t<ul>\n';
@@ -82,7 +78,7 @@ const makeHeaderFooter = (path) => {
             `            <li><a href="${path}index.html">Accueil</a></li>` + 
             `            <li><a href="${path}pages/lignes.html">Nos lignes</a></li>` + 
             `            <li><a href="${path}pages/bijoux.html">Bijoux</a></li>` + 
-            `            <li><a href="${path}pages/gallery.html">Galerie</a></li>` + 
+            // `            <li><a href="${path}pages/gallery.html">Galerie</a></li>` + 
             `            <li><a href="${path}pages/about.html">A propos</a></li>` + 
             `            <li><a href="${path}pages/contact.html" class="link">Contact</a></li>` +
             `            <li><a href="${path}en/pages/lignes.html">English</a></li>` +  

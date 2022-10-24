@@ -513,7 +513,7 @@ const products = [
  stone:"dioptase avec signature émeraude",
  treatment:"doré a l’or fin", 
  weight:"125", 
- name:"manchette Philos", 
+ name:"Manchette Philos", 
  price:"1800" 
 }, 
 
