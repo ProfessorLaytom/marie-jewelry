@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
+    <script type="module" src="./product_generator.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet"> 
+    <title>Marie Alexandrine Yvernault</title>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="intro">
+        <h1>MARIE-ALEXANDRINE <br> YVERNAULT</h1>
+    </div>
+    <div class="product">
+      <div class="product-images">
+        <img class="mySlides" src="../../img/ligne or.png">
+        <img class="mySlides" src="../../img/ligne-bleu.png" style="display:none">
+        <img class="mySlides" src="../../img/ligne-noir.png" style="display:none">
+        <div class="img_zoom"></div>
+        <div class="img-list">
+          <div class="">
+            <img class="demo selected" data-key="1" src="../../img/ligne or.png" style="width:100%;cursor:pointer">
+          </div>
+          <div class="">
+            <img class="demo" data-key="2"
+            src="../../img/ligne-bleu.png"
+            style="width:100%;cursor:pointer">
+          </div>
+          <div class="">
+            <img class="demo" data-key="3" src="../../img/ligne-noir.png" style="width:100%;cursor:pointer">
+          </div>
+        </div>
+      </div>
+        <div class="right">
+          <h2>{{product_name}}</h2>
+          <div class="description">
+              Excepteur sit duis ea labore enim eiusmod veniam laboris deserunt nisi magna Lorem eu consectetur. Veniam aute cillum pariatur dolore eiusmod exercitation dolore. Aliqua exercitation do enim sit nisi consequat duis pariatur consequat nisi aliqua duis exercitation ea.
+          </div>
+          <div class="characteristics">
+              <button class="show-more">Show more info</button>
+              <table class="more hidden">
+                  <tr>
+                    <td>Size</td>
+                    <td>{{size}}</td>
+                  </tr>
+                  <tr>
+                    <td>Weight</td>
+                    <td>{{weight}}g</td>
+                  </tr>
+                  <tr>
+                    <td>Material</td>
+                    <td>{{material}}</td>
+                  </tr>
+                  <tr>
+                    <td>Stone</td>
+                    <td>{{stone}}</td>
+                  </tr>
+                  <tr>
+                    <td>Treatment</td>
+                    <td>{{treatment}}</td>
+                  </tr>
+                  <tr>
+                    <td>Dimensions</td>
+                    <td>{{dimension}} (cm x cm x cm)</td>
+                  </tr>
+                  <tr>
+                    <td>Reference</td>
+                    <td>{{ref}}</td>
+                  </tr>
+                </table>
+          </div>
+        </div>
+    </div>
+    <a href="./pages/contact.html" id="contact">Interested ? Contact us !</a>
+    <footer>
+    </footer>
+</body>
+</html>
