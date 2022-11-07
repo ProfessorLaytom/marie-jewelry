@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script type="module" src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet"> 
+    <title>Marie Alexandrine Yvernault</title>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="intro">
+        <h1>MARIE-ALEXANDRINE <br> YVERNAULT</h1>
+    </div>
+    <div class="form">
+        <p id="dissapear1">Veuillez renseigner vos coordonnées ci dessous, ainsi
+        que le motif de votre prise de contact. Nous vous
+        répondrons au plus vite !</p>
+        <p ic="dissapear2">Vous pouvez également nous contacter par email : <a
+        href = "mailto: marie@mayvernault"
+        id="email">marie@mayvernault.com</a></p>
+
+        <form id="form" class="gform"
+        action="https://script.google.com/macros/s/AKfycbzbjAPLNFsfNLQGiCQW-gwW9I5VxyTktYhk-rLMesIJAEnsDtdjGVNJxYfoe6lEfH_z/exec"
+        method="POST" enctype="multipart/form-data">
+            <div class="form-container">
+                <label for="first-name" >
+                    First name *
+                    <input type="text" name="first-name" required placeholder=" " minlength="2" value="">
+                </label>
+                <label for="last-name" >
+                    Last Name *
+                    <input type="text" name="last-name" required placeholder=" " minlength="2" value="">
+                </label>
+                <label for="email" >
+                    E-mail *
+                    <input type="email" name="email" required placeholder=" " value="">
+                </label>
+                <label for="message">
+                    Message *
+                    <textarea name="message" value=""></textarea>
+                </label>
+            </div>
+            <button type="submit" id="contact">Send message</button>
+            <div style="display:none" class="thankyou_message">
+                <!-- You can customize the thankyou message by editing the code below -->
+                <h2><em>Merci</em> de nous avoir contacter ! Nous
+                revenons vers vous au plus vite.
+                </h2>
+               </div>
+        </form>
+    </div>
+    <footer>
+    </footer>
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+</body>
+</html>
