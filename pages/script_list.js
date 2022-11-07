@@ -74,7 +74,6 @@ const pictureCollector = (ligne, bijoux) => {
         const legend2 = document.createElement('h4')
         let name = ''
         for (let j = 0; j <= products.length-1;j++){
-            console.log(j)
             if (products[j]['id'] == `${ligne}-${bijoux}-${k}`){
                 name = products[j]['name']
             }
@@ -94,7 +93,6 @@ const lignes = ['adama', 'altair', 'bellatrix', 'antares'];
 const bijouxDiv = document.querySelector('.lignes>h2');
 //removes the 'Nos ' and the 's' at the end (plural)
 const bijouxName = bijouxDiv.textContent.replace('Nos ', '').slice(0, -1);
-console.log(bijouxName)
 //creates the cards for a particular bijoux type in each ligne.
 lignes.forEach(x => pictureCollector(x, bijouxName))
 console.log('ok')

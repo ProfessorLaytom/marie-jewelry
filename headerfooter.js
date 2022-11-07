@@ -3,6 +3,11 @@ const makeHeaderFooter = (path) => {
     const footer = document.querySelector('footer')
     header.innerHTML = ''
     footer.innerHTML = ''
+    const head = document.querySelector('head')
+    const favicon = document.createElement('link')
+    favicon.setAttribute('rel', 'icon')
+    favicon.setAttribute('href', `${path}img/logo-blue.png`)
+    head.appendChild(favicon)
 
     function js_thml_desktop(path){
         let code = "";
@@ -81,7 +86,7 @@ const makeHeaderFooter = (path) => {
             // `            <li><a href="${path}pages/gallery.html">Galerie</a></li>` + 
             `            <li><a href="${path}pages/about.html">A propos</a></li>` + 
             `            <li><a href="${path}pages/contact.html" class="link">Contact</a></li>` +
-            `            <li><a href="${path}en/pages/lignes.html">English</a></li>` +  
+            // `            <li><a href="${path}en/pages/lignes.html">English</a></li>` +  
             '          </div>' + 
             '        </div>' + 
             '      </div>' + 

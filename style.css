@@ -153,6 +153,9 @@ header>ul>li>a>img:hover {
         height: auto;
         width: 90vw;
     }    
+    .intro>h1{
+        font-size: 5vw;
+    }
 }
 
 /* lignes/bijoux */
@@ -720,6 +723,10 @@ footer{
     color: var(--clear);
     width: 100%;
     padding-top: var(--gap-title-content);
+}
+
+.no_margin {
+    margin-top: -5vh;
 }
 
 .footer-container {
